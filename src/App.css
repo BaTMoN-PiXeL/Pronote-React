@@ -1,0 +1,52 @@
+body{
+  background-color: aqua;
+  font-family: cursive;
+}
+
+#h1{
+  margin-left: 67%;
+  position: relative;
+  top:50px;
+  font-size: 25px;  
+}
+
+#h2{
+  margin-left: 89%;
+  font-size: 25px;  
+  position: relative;
+  top:50px;
+}
+
+.input-text{
+  margin-left: 25%;
+  width:500px;
+  height: 500px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  margin-top:14%;
+  border-radius: 15px;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+
+.output-text{
+  margin-left: 50%;
+  border-radius: 15px;
+  margin-top:14%;
+  width:500px;
+  height:500px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  background-color: yellow;
+  margin-right: 20px;
+  text-overflow: clip;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
